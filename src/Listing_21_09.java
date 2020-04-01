@@ -9,7 +9,7 @@ public class Listing_21_09 {
         // Create a TreeMap to hold words as key and count as value
         Map<String, Integer> map = new TreeMap<>();
 
-        String[] words = text.split("[\\s+\\p{P}]");
+        String[] words = text.split("[\\s+\\p{P}]"); // \\s = white space, \\p = punctuation
         for (int i = 0; i < words.length; i++) {
             String key = words[i].toLowerCase();
 
