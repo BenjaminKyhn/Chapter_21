@@ -2,6 +2,8 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
+/** Enter absolute path and remember to add .java to the filename */
+
 public class Listing_21_04 {
     public static void main(String[] args) {
         // Create a hash set
