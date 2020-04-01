@@ -25,7 +25,7 @@ public class Exercise_21_02 {
 
         try (Scanner input = new Scanner(textFile)){
             while (input.hasNext()){
-                String[] words = input.nextLine().split("[\\s+\\p{P}]");
+                String[] words = input.nextLine().split("[\\p{P}]");
                 for (String word :
                         words) {
                     if (word.length() > 0)
